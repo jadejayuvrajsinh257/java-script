@@ -148,3 +148,64 @@
 // console.log(neighbours);
 
 
+
+// 7. ntroduction to Objects :
+
+// Create an object called myCountry for a country of your choice, containing properties country, capital, language, population and neighbours (an array like we used in previous assignments).
+
+// const myCountry = {
+//   country: "india",
+//   capital: "delhi",
+//   language: "hindi",
+//   population: 1.4,
+//   neighbours: ["pakistan", "nepal", "bagladesh"],
+// };
+
+// console.log(myCountry);
+
+// 8. Dot vs. Bracket Notation :
+
+// Using the object from the previous assignment, log a string like this to the console: 'Finland has 6 million finnish-speaking people, 3 neighbouring countries and a capital called Helsinki'.
+// Increase the country's population by two million using dot notation, and then decrease it by two million using bracket notation.
+
+// const myCountry = {
+//   country: "india",
+//   capital: "delhi",
+//   language: "hindi",
+//   population: 1.4,
+//   neighbours: ["pakistan", "nepal", "bagladesh"],
+// };
+
+// console.log(
+//   `${myCountry.country} has ${myCountry.population} billoion ${myCountry.language}-speaking people,${myCountry.neighbours.length} neighbouring countries and a capital called ${myCountry.capital}.`,
+// );
+
+// myCountry.population += 2;
+// console.log(myCountry.population);
+
+// myCountry.population -= 2;
+// console.log(myCountry['population']);
+
+// console.log(myCountry);
+
+
+// 9. object Methods : 
+
+// Add a method called describe to the myCountry object. This method will log a string to the console, similar to the string logged in the previous assignment, but this time using the 'this' keyword.
+// Call the describe method.
+// Add a method called checkIsland to the myCountry object. This method will set a new property on the object, called isIsland. isIsland will be true if there are no neighbouring countries, and false if there are. Use the ternary operator to set the property.
+
+// const uv = {
+// birthyear : 2005 ,
+
+// calage : function(){
+
+//    this.age = 2026-this.birthyear;
+//    return this.age;}
+
+// };
+
+
+// uv.calage();
+// console.log(uv.age);
+
