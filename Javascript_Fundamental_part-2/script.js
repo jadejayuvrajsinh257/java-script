@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /*
 ///////////////////////////////////////
@@ -288,7 +288,6 @@ console.log(bills, tips, totals);
 //   friends: ['Michael', 'Peter', 'Steven']
 // };
 
-
 ///////////////////////////////////////
 // Dot vs. Bracket Notation
 // const jonas = {
@@ -325,7 +324,6 @@ console.log(bills, tips, totals);
 // "Jonas has 3 friends, and his best friend is called Michael"
 // console.log(`${jonas.firstName} has ${jonas.friends.length} friends, and his best friend is called ${jonas.friends[0]}`);
 
-
 ///////////////////////////////////////
 // Object Methods
 
@@ -337,14 +335,14 @@ console.log(bills, tips, totals);
 //   friends: ['Michael', 'Peter', 'Steven'],
 //   hasDriversLicense: true,
 
-  // calcAge: function (birthYeah) {
-  //   return 2037 - birthYeah;
-  // }
+// calcAge: function (birthYeah) {
+//   return 2037 - birthYeah;
+// }
 
-  // calcAge: function () {
-  //   // console.log(this);
-  //   return 2037 - this.birthYeah;
-  // }
+// calcAge: function () {
+//   // console.log(this);
+//   return 2037 - this.birthYeah;
+// }
 
 //   calcAge: function () {
 //     this.age = 2037 - this.birthYeah;
@@ -365,7 +363,6 @@ console.log(bills, tips, totals);
 // Challenge
 // "Jonas is a 46-year old teacher, and he has a driver's license"
 // console.log(jonas.getSummary());
-
 
 ///////////////////////////////////////
 // Coding Challenge #3

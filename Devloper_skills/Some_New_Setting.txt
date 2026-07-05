@@ -1,0 +1,36 @@
+<#> Prettier some settings :
+
+-> below given settings "singleQuote" convert the singleQuote to doubleQuote in any place at the code.
+-> Another below given setting "arrowParens" used in the arrow function to give "()" in the parameter if it is needed.
+-> Exmple : here it doesn't needed.
+    const uv = birthyear => {
+        return 2026-birthyear;
+    } ; 
+-> We can learn more about this by going to Prettier website :).
+        roadmap :- (Prettier.io=>Docs=>about=>options)
+
+    //  Example:
+     {
+         "singleQuote": true
+        ,"arrowParens": "avoid"
+     }
+
+<#> use of snippets :
+
+-> we use this snippets to automaticaliy write the console.log().
+-> to use this go to setting then snippets then make nwe global file with any name i have used uv.
+-> Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+   description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+   is left empty or omitted, the snippet gets applied to all languages. The prefix is what is used to trigger the snippet
+   and the body will be expanded and inserted.
+
+	// Example:
+	"Print to console": {
+		"scope": "javascript,typescript",
+		"prefix": "uv",
+		"body": [
+			"console.log();"
+		],
+		"description": "Log output to console"
+	}
+    
