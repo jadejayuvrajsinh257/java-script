@@ -1,4 +1,4 @@
-'use scripct';
+'use strict';
 
 // All the element are defined here.
 
@@ -59,7 +59,7 @@ const Roll =function(){
        score[activeplayer] += currentscore;
        document.getElementById(`score--${activeplayer}`).textContent=score[activeplayer]; 
      // 2. check the player current score is >= to 100.
-       if(score[activeplayer]>=100)
+       if(score[activeplayer]>=10)
        {
      // 3. finish the game.
      plying=false;
