@@ -27,6 +27,11 @@ const restaurant = {
 
 // code is weitten in the book.perfer for book clear the concept.
 
+// const menu = [...restaurant.starterMenu,...restaurant.categories];
+// console.log(menu);
+// for(const [index,El] of menu.entries())
+// {
+//   console.log(`${index+1} is ${El}`);
+// }
 
-
-// 
+// console.log([...menu.entries()]);
